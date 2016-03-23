@@ -281,7 +281,7 @@ var azerPackages = [
 exec('npm ls --parseable | sed s#.*/## | sort | uniq',
   function (err, stdout, stderr) {
     if (err) {
-      console.err('Error', err)
+      console.error('Error', err)
     }
 
     var modules = stdout.split(/\n/).filter(Boolean)
