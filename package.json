@@ -1,0 +1,19 @@
+{
+  "name": "did-azer-break-my-stuff",
+  "version": "0.1.1",
+  "description": "A node utility to check if you are consuming a dependency affected by https://medium.com/@azerbike/i-ve-just-liberated-my-modules-9045c06be67c",
+  "main": "index.js",
+  "bin": {
+    "did-azer-break-my-stuff": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/albertfdp/did-azer-break-my-stuff.git"
+  },
+  "keywords": [
+    "npm",
+    "azer"
+  ],
+  "author": "Albert Fernández <albert@nandez.cat>",
+  "license": "MIT"
+}
