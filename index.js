@@ -293,7 +293,7 @@ exec('npm ls --parseable | sed s#.*/## | sort | uniq',
     if (affectedModules.length > 0) {
       console.log('The following packages might be affected:')
       affectedModules.forEach(function (module) {
-        console.log(`=> ${module}`)
+        console.log('=>' + module)
       })
       process.exit(1)
     }
