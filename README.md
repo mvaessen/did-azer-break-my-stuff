@@ -16,3 +16,7 @@ $ cd my_repo && did-azer-break-my-stuff
 ```
 
 If you are affected, it will output the list of affected packages and will return an error 1.
+
+## Platform support
+
+This script currently only works on unix based systems (Mac, Linux). It does not work on Windows.
